@@ -10,7 +10,7 @@ The code for the simulation is taken from this repository: https://github.com/Je
 
 The drawing code uses the Gurobi solver, but if you don't have a Gurobi license, you can alternatively use the SCIP solver which is free.
 
-To do so, in the draw_matchups_first.jl file (in the draw-backend folder), replace this line:
+To do so, in the `draw_matchups_first.jl` file (in the `draw-backend` folder), replace this line:
 ```bash
 ####################################### CONFIG VARIABLES #######################################
 const SOLVER = "Gurobi" # Alternative: "SCIP"
