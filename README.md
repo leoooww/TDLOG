@@ -8,7 +8,7 @@ The code for the simulation is taken from this repository: https://github.com/Je
 
 ## Project Structure
 
-- **Frontend**
+- **Frontend (champions-league-draw)**
   Built with Angular.
   To start a local development server, run:
 
@@ -21,7 +21,7 @@ ng serve
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
 
-- **Backend**
+- **Backend (draw-backend)**
   To start it, open a new terminal and run:
 
 ```bash
