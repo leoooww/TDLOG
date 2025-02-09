@@ -46,7 +46,7 @@ Once the server is running, open your browser and navigate to `http://localhost:
 cd draw-backend
 uvicorn main:app --reload
 ```
-Once you have run it, verify that the url the backend is running on (ex: `http://127.0.0.1:8000`) is the same than the one written on the terminal-service.ts file of the frontend.
+Once you have run it, verify that the url the backend is running on (ex: `http://127.0.0.1:8000`) is the same than the one written on the `terminal-service.ts` file of the frontend.
 
 
 ## Authors
