@@ -48,6 +48,28 @@ uvicorn main:app --reload
 ```
 Once you have run it, verify that the url the backend is running on (ex: `http://127.0.0.1:8000`) is the same than the one written on the `terminal-service.ts` file of the frontend.
 
+## Required Packages
+
+- **Backend (Python):**
+```bash
+fastapi
+websockets
+uvicorn
+pexpect
+asyncio
+sys
+```
+
+- **Backend (Julia):**
+```bash
+Gurobi
+SCIP
+JuMP
+CSV
+DataFrames
+Random
+Base.Threads
+```
 
 ## Authors
 
