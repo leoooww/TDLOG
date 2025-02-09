@@ -14,6 +14,7 @@ The code for the simulation is taken from this repository: https://github.com/Je
 
 ```bash
 cd champions-league-draw
+npm install
 ng serve
 ```
 
